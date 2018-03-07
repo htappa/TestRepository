@@ -1,4 +1,4 @@
-Adata <- read.csv(file="C:/Users/Henry Tappa/Google Drive/GWU/DATS6101_IntroToDataScience/Assignment03/LogReg.csv", 
+Adata <- read.csv(file="C:/Users/Henry Tappa/Google Drive/Github/TestRepository/LogReg.csv", 
                   header=TRUE, sep=",")
 
 Adata[,1] <- as.factor(Adata[,1])
@@ -77,3 +77,10 @@ chisq.test(tbl)
 
 ## As the p-value 1.374 is greater than the .05 significance level, we do not reject the null 
 ## hypothesis that admission is independent of the ranking of the undergraduate institution.
+
+
+# Since this is now a test file, we will read in a text file:
+
+text <- read.table(file="C:/Users/Henry Tappa/Google Drive/Github/TestRepository/text.txt", 
+                  header=TRUE, sep=",")
+text

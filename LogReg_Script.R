@@ -30,7 +30,7 @@ t.test(rejected$gpa, conf.level = .99)
 
 
 # Question 3
-# Make (box-) plots showing the gre distribution among applicants from different school rankings.
+# Make (box) plots showing the gre distribution among applicants from different school rankings.
 
 boxplot(gre~rank, data = Adata, main="gre distribution by school rankings", xlab="rank", ylab="gre")
 

@@ -1,5 +1,4 @@
-Adata <- read.csv(file="C:/Users/Henry Tappa/Google Drive/Github/TestRepository/LogReg.csv", 
-                  header=TRUE, sep=",")
+Adata <- read.csv(file="C:/Users/Henry Tappa/Google Drive/Github/TestRepository/LogReg.csv", header=TRUE, sep=",")
 
 Adata[,1] <- as.factor(Adata[,1])
 Adata[,4] <- as.factor(Adata[,4])
